@@ -1,0 +1,30 @@
+.Section {
+    display: flex;
+    padding : 3px;
+    border: 3px dotted aquamarine;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Section article {
+    width:100%;
+    border-bottom: 0px;
+}
+
+@media (max-width:600px) {
+    .Section {
+        border: 0px;
+        padding: 0px;
+    }
+    .Section article {
+        border: 3px dotted aquamarine;
+    }
+}
+
+@media (min-width:600px) {
+    .Section.Section__Split article {
+        width:33.3333%
+    }
+}
