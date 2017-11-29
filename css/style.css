@@ -1,0 +1,8 @@
+@import "Nav.css";
+@import "Header.css";
+@import "Section.css";
+@import "Divider.css";
+body {
+    margin:0;
+    box-sizing: border-box;
+}

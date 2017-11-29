@@ -1,0 +1,52 @@
+.Nav {
+    display: flex;
+    padding : 3px;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: space-evenly;    
+}
+
+.Nav div {
+    padding: 6px;
+    border: 3px dotted aquamarine;
+    border-radius: 6px;
+}
+
+.Nav div:hover {
+    border-radius: 0px;
+}
+
+.Nav div a {
+    background-color: aquamarine;
+    margin : 3px 3px;
+    padding: 6px 6px;
+}
+
+.Nav div a:hover {
+    background-color: darkorchid;
+    color:aquamarine;
+    margin : 3px 2px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+@media (min-width: 300px){
+    .Nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: aquamarine;
+    }
+    .Nav div:hover {
+        background-color: darkorchid;
+        color:aquamarine;
+    }
+    .Nav div:hover a {
+        border-radius: 6px;
+    }
+}
+@media (min-width: 400px){
+    .Nav {
+        display: flex;
+        flex-direction: row;   
+    }
+}

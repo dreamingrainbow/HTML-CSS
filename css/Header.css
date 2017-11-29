@@ -1,0 +1,20 @@
+.Header {
+    text-align: center;
+}
+
+.Header h1 {
+    margin-bottom: 0;
+    color: purple;
+}
+
+
+.Header h2 {
+    margin-bottom: 0;
+    color: blueviolet;
+}
+
+.Header p {
+    color : darkorchid;
+    text-align: justify;
+    padding: 6px 6px;
+}
