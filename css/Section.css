@@ -24,6 +24,14 @@
     padding: 6px 6px;
 }
 
+.Section__split-div-2 {
+    justify-content: center;
+}
+
+.Section__split-div-2:div {
+    width: 50%;
+}
+
 @media (max-width:600px) {
     .Section {
         border: 0px;
@@ -43,5 +51,11 @@
     }    
     .Section.Section__Split-4 article {
         width:25%;
+    }
+    .Section__split-div-2 {
+        display: inline-flex;
+    }
+    .Section__article-split{
+        width:66.6666% !important;
     }
 }
