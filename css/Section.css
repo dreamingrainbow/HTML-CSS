@@ -1,11 +1,10 @@
 .Section {
     display: flex;
     padding : 3px;
-    border: 3px dotted aquamarine;
+    border: 3px dotted purple;
     box-sizing: border-box;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     min-width: 300px;
 }
 
@@ -14,7 +13,14 @@
     border-bottom: 0px;
 }
 
-.Section article div {
+.Section p {
+    color : darkorchid;
+    padding: 6px 6px;
+    margin: 3px;
+}
+
+.Section article  {
+    box-sizing: border-box;
     padding: 6px 6px;
 }
 
@@ -24,7 +30,7 @@
         padding: 0px;
     }
     .Section article {
-        border: 3px dotted aquamarine;
+        border: 3px dotted purple;
     }
 }
 

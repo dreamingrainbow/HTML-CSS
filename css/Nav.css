@@ -8,7 +8,7 @@
 
 .Nav div {
     padding: 6px;
-    border: 3px dotted aquamarine;
+    border: 3px dotted purple;
     border-radius: 6px;
 }
 
@@ -17,7 +17,8 @@
 }
 
 .Nav div a {
-    background-color: aquamarine;
+    background-color: purple;
+    color:aquamarine;
     margin : 3px 3px;
     padding: 6px 6px;
 }
@@ -34,11 +35,11 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        background-color: aquamarine;
+        background-color: purple;
     }
     .Nav div:hover {
         background-color: darkorchid;
-        color:aquamarine;
+        color:white;
     }
     .Nav div:hover a {
         border-radius: 6px;

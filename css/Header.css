@@ -10,11 +10,5 @@
 
 .Header h2 {
     margin-bottom: 0;
-    color: blueviolet;
-}
-
-.Header p {
-    color : darkorchid;
-    text-align: justify;
-    padding: 6px 6px;
+    color: purple;
 }
