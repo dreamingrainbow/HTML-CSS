@@ -5,12 +5,13 @@
     box-sizing: border-box;
     flex-direction: row;
     flex-wrap: wrap;
-    min-width: 300px;
+    min-width: 332px;
 }
 
 .Section article {
     width:100%;
     border-bottom: 0px;
+    min-width: 324px;
 }
 
 .Section p {

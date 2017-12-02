@@ -19,8 +19,10 @@
 
 .ImageTabs__thumbnail-displayItem img {
     justify-content: center;
-    width:240px !important;
-    height:317px !important;
+    width:230px !important;
+    height:307px !important;
+    box-shadow: 10px 10px 5px #800080;
+    margin-bottom:10px;
 }
 
 .ImageTabs__thumbnail img{
