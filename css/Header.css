@@ -6,10 +6,12 @@
 .Header h1 {
     margin-bottom: 0;
     color: purple;
+    text-shadow: 1px 1px 5px aquamarine;
 }
 
 
 .Header h2 {
     margin-bottom: 0;
     color: purple;
+    text-shadow: 1px 1px 5px aquamarine;
 }

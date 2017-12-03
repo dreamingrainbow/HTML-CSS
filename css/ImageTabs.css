@@ -9,7 +9,7 @@
 }
 
 .ImageTabs__thumbnail {
-    padding: 0px;
+    padding: 3px;
     margin-bottom: -6px;
 }
 
@@ -21,14 +21,16 @@
     justify-content: center;
     width:230px !important;
     height:307px !important;
-    box-shadow: 10px 10px 5px silver;
+    box-shadow: 7px 7px 5px darkorchid;
     margin-bottom:10px;
+    border: 1px solid gold;
 }
 
 .ImageTabs__thumbnail img{
     padding: 3px 3px;
     width:76px;
     height:76px;
+    box-sizing: border-box;
 }
 
 .ImageTabs__thumbnails-row {
