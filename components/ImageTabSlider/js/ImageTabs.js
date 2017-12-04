@@ -26,5 +26,5 @@ class ImageTabs {
   } 
 }
 
-let tabs = document.querySelectorAll(".ImageTabs");
-tabs = Array.from(tabs).map(tabs => new ImageTabs(tabs));
+let imageTabs = document.querySelectorAll(".ImageTabs");
+imageTabs = Array.from(imageTabs).map(imageTabs => new ImageTabs(imageTabs));

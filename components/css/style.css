@@ -1,0 +1,14 @@
+@import "../Nav/css/Nav.css";
+@import "../Header/css/Header.css";
+@import "../Section/css/Section.css";
+@import "../Divider/css/Divider.css";
+@import "../ImageTabSlider/css/ImageTabs.css";
+@import "../ContactSlider/css/ContactSlider.css";
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
